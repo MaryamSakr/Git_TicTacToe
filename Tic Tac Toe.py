@@ -1,5 +1,6 @@
 from turtle import*
 import turtle
+import time
 
 #draw the board
 square = turtle.Turtle()
@@ -96,54 +97,70 @@ def draw2():
 def winner1():
     if square2[0]+  square2[1]+ square2[2]==15:
         print(" Player1 is winner")
-                            
+        time.sleep(3)
+        raise SystemExit                        
     elif square2[3]+square2[4]+square2[5]==15:
         print(" Player1 is winner")
-                   
+        time.sleep(3)
+        raise SystemExit           
     elif square2[6]+square2[7]+square2[8]==15:
         print(" Player1 is winner")
-                        
+        time.sleep(3)
+        raise SystemExit               
     elif square2[0]+square2[3]+square2[6]==15:
         print(" Player1 is winner")
-                        
+        time.sleep(3)
+        raise SystemExit               
     elif square2[1]+square2[4]+square2[7]==15:
         print(" Player1 is winner")
-                       
+        time.sleep(3)
+        raise SystemExit              
     elif square2[2]+square2[5]+square2[8]==15:
         print(" Player1 is winner")
-                        
+        time.sleep(3)
+        raise SystemExit                
     elif square2[0]+square2[4]+square2[8]==15:
         print(" Player1 is winner")
-                        
+        time.sleep(3)
+        raise SystemExit                
     elif square2[2]+square2[4]+square2[6]==15:
         print(" Player1 is winner")
-                        
+        time.sleep(3)
+        raise SystemExit              
                 
 def winner2():
     if square2[0]+  square2[1]+ square2[2]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[3]+ square2[4]+ square2[5]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[6]+ square2[7]+ square2[8]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[0]+ square2[3]+ square2[6]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[1]+ square2[4]+ square2[7]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[2]+ square2[5]+ square2[8]==15:
             print(" Player2 is winner")
-
+            time.sleep(3)
+            raise SystemExit
     elif square2[0]+ square2[4]+ square2[8]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit            
     elif square2[2]+ square2[4]+ square2[6]==15:
             print(" Player2 is winner")
-                        
+            time.sleep(3)
+            raise SystemExit           
 
 while 200 in square2:
     First_player=int(input("player1 please enter your number: "))
